@@ -1,0 +1,188 @@
+:root{
+    --blanco:#FFFFFF;
+    --rojo:#D01D36;
+    --amarillo:#f2991f;
+    --morado: #540178; 
+    --rosa: #a60277; 
+}
+
+.logo{
+    border: none;
+    width: 100px;
+}
+
+.navbar {
+    background-color: var(--rojo);
+    margin-bottom: 2rem;
+}
+
+.nav-link, .navbar-brand {
+    border-radius:30px;
+    font-size: 1.2rem;
+    color:var(--blanco);
+}
+
+#liTitle{
+    color:var(--blanco);
+}
+
+.navbar a {
+    color:var(--blanco);
+}
+
+.navbar .nav-link {
+    color:var(--blanco);
+}
+
+.nav-link:hover{
+    background-color: var(--amarillo);
+    color:var(--blanco);
+}
+
+.navbar-brand:hover {
+    color:var(--blanco);
+}
+
+#btnBook, #btnMBook{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+#btnBook {
+    height: 90%;
+}
+
+#btnMBook {
+    height: 100px;
+}
+
+.card-header, .btnRegister, #btnBook, #btnMBook, #btnAction:hover, #btnMaterial:hover {
+    background-color: var(--rojo);
+    color:var(--blanco);
+}
+
+.btnRegister:hover, #btnBook:hover, #btnMBook:hover {
+    background-color: var(--blanco);
+    color:var(--rojo);
+    border-color: var(--rojo);
+}
+
+#btnProvider{
+    background-color: var(--transparente);
+    border-color: var(--rojo);
+    border-style: solid;
+    border-width: 3px;
+    border-radius:15px;
+    color:var(--rojo);
+    height: 100%;
+    padding: 1rem;
+}
+
+#btnSubject{
+    background-color: var(--amarillo);
+    color:var(--blanco);
+}
+
+#btnSubject, #btnComun, #btnEnglish, #btnSecundaria{
+    color:var(--blanco);
+    margin-top:2rem;
+    width: 200px;
+    height: 150px;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius:15px;
+}
+#btnSubject i, #btnLevel i{
+    font-size: 2rem;
+}
+#btnSubject:hover, #btnProvider:hover, #btnLevelM {
+    color:var(--blanco);
+    background-color: var(--rojo);
+    border-radius:15px;
+}
+
+#btnLevel, #btnPresentacion{
+    margin-top:2rem;
+    background-color: var(--rojo);
+    width: 200px;
+    height: 150px;
+    color:var(--blanco);
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius:15px;
+}
+#btnAction{
+    padding-top: 20px;
+    border-radius:15px;
+    width: 100px;
+    height: 100px;
+}
+
+#btnMaterial{
+    width: 150px;
+    height: 150px;
+    padding-top: 45px;
+    border-radius:15px;
+}
+
+#btnAction, #btnMaterial, #btnLevel:hover, #btnLevelM:hover {
+    color:var(--blanco);
+    background-color: var(--amarillo);
+    border-color: var(--blanco);
+}
+
+
+/* MENU */
+
+#navDrop .nav-link{
+    color: black !important;
+}
+
+#navDrop .nav-link:hover{
+    color: white !important;
+}
+
+#btnComun{
+    background-color: var(--rosa);
+}
+
+#btnEnglish{
+    background-color: var(--amarillo);
+}
+
+#btnComun:hover{
+    background-color: transparent;
+    color: var(--rosa);
+    border-color: 2px var(--rosa);
+}
+
+#btnSecundaria{
+    background-color: var(--morado);
+}
+
+#btnSecundaria:hover{
+    background-color: transparent;
+    color: var(--rosa);
+    border-color: 2px var(--morado);
+}
+
+#btnEnglish:hover{
+    background-color: transparent;
+    color: var(--amarillo);
+    border-color:  2px var(--amarillo);
+}
+
+#btnMaterials{
+    color:var(--rojo);
+    background-color: var(--blanco);
+    border-color: var(--rojo);
+    border-radius:15px;
+}
+
+#btnMaterials:hover{
+    color:var(--amarillo);
+    border-color: var(--amarillo);
+}
